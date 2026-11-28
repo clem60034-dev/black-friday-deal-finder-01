@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/black-friday-deal-finder-01/clem60034-dev/black-friday-deal-finder-01/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 [![reward](https://make.fun/badge/black-friday-deal-finder-01/clem60034-dev/black-friday-deal-finder-01/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
 
-Bargain Beacon — a Black Friday deal finder of real, checked deals from Australian stores. 27 deals, each with its store, store link, sale price, usual price, discount and check time, plus a verdict on whether it is really a deal (NEW LOW, STRONG DEAL, GOOD PRICE or ROUTINE). Search and filters by category, store and discount all work; sorting puts the best deals first.
+Bargain Beacon — a Black Friday deal finder of real, checked deals from Australian stores. 64 deals, each with its store, store link, sale price, usual price, discount and check time, plus a verdict on whether it is really a deal (NEW LOW, STRONG DEAL, GOOD PRICE or ROUTINE). Search and filters by category, store and discount all work; sorting puts the best deals first.
 
 ## Run it
 
