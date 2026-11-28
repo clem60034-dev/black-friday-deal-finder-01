@@ -1,9 +1,10 @@
-// The deals. Each one was found and checked by the agent on 27 Nov 2026 (UTC):
-// the sale price and the usual (ticketed / RRP) price were read from the
-// deals source named in `source`, and the store link opens the product at
-// the store (a store search for the exact product where no direct product
-// page was given). Prices are Australian dollars. `checked` is when the
-// price was verified, in UTC.
+// The deals. The first 27 were found and checked by the agent on 27 Nov
+// 2026 (UTC); 11 more were added on 28 Nov 2026 (UTC), checked the same
+// day: the sale price and the usual (ticketed / RRP) price were read from
+// the deals source named in `source`, and the store link opens the product
+// at the store (a store search for the exact product where no direct
+// product page was given). Prices are Australian dollars. `checked` is
+// when the price was verified, in UTC.
 
 export const deals = [
   {
@@ -302,5 +303,128 @@ export const deals = [
     url: "https://rushfaster.com.au/search?q=Aer+City+Pack+Pro+2",
     checked: "2026-11-27T13:40:00Z",
     source: "OzBargain front page",
+  },
+  // Added 28 Nov 2026 (UTC), checked the same day from the roundups and
+  // store pages named in `source`.
+  {
+    id: "sony-wh-1000xm6",
+    title: "Sony WH-1000XM6 Noise Cancelling Headphones",
+    store: "Amazon AU",
+    category: "Audio",
+    price: 419.95,
+    was: 697,
+    url: "https://www.amazon.com.au/s?k=Sony+WH-1000XM6",
+    checked: "2026-11-28T00:05:00Z",
+    source: "BTTR Black Friday 2026 roundup",
+  },
+  {
+    id: "ninja-flexdrawer-xxxl",
+    title: "Ninja XXXL FlexDrawer Air Fryer",
+    store: "Amazon AU",
+    category: "Kitchen",
+    price: 217.99,
+    was: 449.99,
+    url: "https://www.amazon.com.au/s?k=Ninja+FlexDrawer+Air+Fryer",
+    checked: "2026-11-28T00:05:00Z",
+    source: "BTTR Black Friday 2026 roundup",
+  },
+  {
+    id: "google-pixel-10-pro",
+    title: "Google Pixel 10 Pro 128GB",
+    store: "Amazon AU",
+    category: "Phones",
+    price: 1078.24,
+    was: 1699,
+    url: "https://www.amazon.com.au/s?k=Google+Pixel+10+Pro+128GB",
+    checked: "2026-11-28T00:05:00Z",
+    source: "BTTR Black Friday 2026 roundup; GadgetGuy Amazon roundup",
+  },
+  {
+    id: "kindle-paperwhite-16gb",
+    title: "Amazon Kindle Paperwhite 16GB",
+    store: "Amazon AU",
+    category: "E-readers",
+    price: 227,
+    was: 369,
+    url: "https://www.amazon.com.au/s?k=Amazon+Kindle+Paperwhite+16GB",
+    checked: "2026-11-28T00:05:00Z",
+    source: "BTTR Black Friday 2026 roundup",
+  },
+  {
+    id: "dreame-aqua10-roller",
+    title: "Dreame Aqua10 Roller",
+    store: "The Good Guys",
+    category: "Home",
+    price: 997,
+    was: 2699,
+    url: "https://www.thegoodguys.com.au/search?query=Dreame+Aqua10+Roller",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy The Good Guys Black Friday 2026 roundup",
+  },
+  {
+    id: "jbl-live-flex-3",
+    title: "JBL Live Flex 3 ANC Earbuds",
+    store: "The Good Guys",
+    category: "Audio",
+    price: 99,
+    was: 250,
+    url: "https://www.thegoodguys.com.au/search?query=JBL+Live+Flex+3",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy The Good Guys Black Friday 2026 roundup",
+  },
+  {
+    id: "hisense-q7sau-100",
+    title: "Hisense 100\" Q7SAU Hi-QLED 4K Smart TV",
+    store: "The Good Guys",
+    category: "TV",
+    price: 2495,
+    was: 4995,
+    url: "https://www.thegoodguys.com.au/search?query=Hisense+100+Q7SAU",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy The Good Guys Black Friday 2026 roundup; The Good Guys store search ($2,495, $2,500 off)",
+  },
+  {
+    id: "apple-iphone-air-256",
+    title: "Apple iPhone Air 256GB",
+    store: "JB Hi-Fi",
+    category: "Phones",
+    price: 1249,
+    was: 1899,
+    url: "https://www.jbhifi.com.au/search?query=Apple+iPhone+Air+256GB",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy JB Hi-Fi Black Friday 2026 roundup; BTTR Black Friday 2026 roundup",
+  },
+  {
+    id: "tineco-floor-one-s7",
+    title: "Tineco Floor ONE S7 Stretch",
+    store: "Amazon AU",
+    category: "Home",
+    price: 599.99,
+    was: 1949.99,
+    url: "https://www.amazon.com.au/s?k=Tineco+Floor+ONE+S7+Stretch",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy Amazon Black Friday 2026 roundup",
+  },
+  {
+    id: "echo-show-11",
+    title: "Amazon Echo Show 11",
+    store: "Amazon AU",
+    category: "Smart home",
+    price: 259,
+    was: 499,
+    url: "https://www.amazon.com.au/s?k=Amazon+Echo+Show+11",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy Amazon Black Friday 2026 roundup",
+  },
+  {
+    id: "lenovo-legion-34w",
+    title: "Lenovo Legion 34W-2C 34\" WQHD Curved Gaming Monitor",
+    store: "The Good Guys",
+    category: "Gaming",
+    price: 349,
+    was: 699,
+    url: "https://www.thegoodguys.com.au/search?query=Lenovo+Legion+34W-2C",
+    checked: "2026-11-28T00:05:00Z",
+    source: "GadgetGuy JB Hi-Fi Black Friday 2026 roundup; The Good Guys store search ($349, $350 off)",
   },
 ];

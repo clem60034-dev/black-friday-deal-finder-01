@@ -22,7 +22,7 @@ export function listPage(deals, state, counts) {
   const shown = deals.length;
   const total = counts.total;
   return `<h1>Black Friday deals, checked one by one</h1>
-<p class="lede">Every price below was read from a deals source or the store itself on 27 Nov 2026, with the usual price beside it and a verdict on whether it is really a deal. Prices are Australian dollars.</p>
+<p class="lede">Every price below was read from a deals source or the store itself on 27–28 Nov 2026, with the usual price beside it and a verdict on whether it is really a deal. Prices are Australian dollars.</p>
 <section class="stats" aria-label="Board totals">
   <div><strong>${total}</strong><span>deals checked</span></div>
   <div><strong>${counts.newLow}</strong><span>new lows</span></div>
